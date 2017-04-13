@@ -1,0 +1,25 @@
+<materials>
+	<material name="material">
+		<shader>shader</shader>
+		<texture name="sampler">block</texture>
+		<is-transparent>false</is-transparent>
+	</material>
+	<material name="transparentMaterial">
+		<shader>shader</shader>
+		<texture name="sampler">block</texture>
+		<is-transparent>true</is-transparent>
+	</material>
+	<material name="regularMaterial">
+		<shader>regularShader</shader>
+		<texture name="sampler">block</texture>
+		<is-transparent>false</is-transparent>
+	</material>
+	<material name="spriteMaterial">
+		<texture name="sampler">sprite</texture>
+		<is-transparent>false</is-transparent>
+	</material>
+	<material name="colorMaterial">
+		<shader>colorShader</shader>
+		<is-transparent>false</is-transparent>
+	</material>
+</materials>

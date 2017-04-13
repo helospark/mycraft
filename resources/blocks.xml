@@ -1,0 +1,325 @@
+<blocks>
+	<block name="Dirt">
+		<id>0</id>
+		<material>material</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>cube</model>
+		<drops>
+			<drop>
+				<drop-id>0</drop-id>
+				<drop-amount>1</drop-amount>
+				<drop-chance>1.0</drop-chance>
+			</drop>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>0</u>
+				<v>2</v>
+			</side>
+		</block-side-textures>
+		<transparent>false</transparent>
+		<right-click-handler>noOperationRightClickHandler</right-click-handler>
+	</block>
+	
+	<block name="Stone">
+		<id>1</id>
+		<material>material</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>cube</model>
+		<drops>
+			<drop>
+				<drop-id>1</drop-id>
+				<drop-amount>1</drop-amount>
+				<drop-chance>1.0</drop-chance>
+			</drop>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>0</u>
+				<v>1</v>
+			</side>
+		</block-side-textures>
+		<transparent>false</transparent>
+		<right-click-handler>noOperationRightClickHandler</right-click-handler>
+		<can-be-destroyed-with>
+			<item>6</item>
+		</can-be-destroyed-with>
+	</block>
+	
+	<block name="Air">
+		<id>2</id>
+		<material>material</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>cube</model>
+		<drops>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>0</u>
+				<v>1</v>
+			</side>
+		</block-side-textures>
+		<transparent>true</transparent>
+		<right-click-handler>noOperationRightClickHandler</right-click-handler>
+	</block>
+	
+	<block name="Water">
+		<id>3</id>
+		<material>material</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>cube</model>
+		<drops>
+			<drop>
+				<drop-id>4</drop-id>
+				<drop-amount>1</drop-amount>
+				<drop-chance>1.0</drop-chance>
+			</drop>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>0</u>
+				<v>0</v>
+			</side>
+		</block-side-textures>
+		<transparent>true</transparent>
+		<right-click-handler>noOperationRightClickHandler</right-click-handler>
+	</block>
+	
+	<block name="Gold">
+		<id>4</id>
+		<material>material</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>cube</model>
+		<drops>
+			<drop>
+				<drop-id>5</drop-id>
+				<drop-amount>1</drop-amount>
+				<drop-chance>1.0</drop-chance>
+			</drop>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>1</u>
+				<v>7</v>
+			</side>
+		</block-side-textures>
+		<transparent>false</transparent>
+		<right-click-handler>noOperationRightClickHandler</right-click-handler>
+	</block>
+	
+	<block name="HoedDirt">
+		<id>5</id>
+		<material>material</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>cube</model>
+		<drops>
+			<drop>
+				<drop-id>0</drop-id>
+				<drop-amount>1</drop-amount>
+				<drop-chance>1.0</drop-chance>
+			</drop>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>5</u>
+				<v>7</v>
+			</side>
+		</block-side-textures>
+		<transparent>false</transparent>
+		<right-click-handler>noOperationRightClickHandler</right-click-handler>
+	</block>
+	
+	<block name="GlowStone">
+		<id>6</id>
+		<material>material</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>cube</model>
+		<drops>
+			<drop>
+				<drop-id>7</drop-id>
+				<drop-amount>1</drop-amount>
+				<drop-chance>1.0</drop-chance>
+			</drop>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>6</u>
+				<v>9</v>
+			</side>
+		</block-side-textures>
+		<transparent>false</transparent>
+		<light>
+			<light-strength>10</light-strength>
+			<light-distance>6</light-distance>
+		</light>
+		<right-click-handler>noOperationRightClickHandler</right-click-handler>
+	</block>
+	
+	<block name="CraftingTable">
+		<id>7</id>
+		<material>material</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>cube</model>
+		<drops>
+			<drop>
+				<drop-id>10</drop-id>
+				<drop-amount>1</drop-amount>
+				<drop-chance>1.0</drop-chance>
+			</drop>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>3</u>
+				<v>11</v>
+			</side>
+		</block-side-textures>
+		<transparent>false</transparent>
+		<right-click-handler>openCraftingMenuRightClickHandler</right-click-handler>
+	</block>
+	
+	<block name="RegularWood">
+		<id>8</id>
+		<material>material</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>cube</model>
+		<drops>
+			<drop>
+				<drop-id>11</drop-id>
+				<drop-amount>1</drop-amount>
+				<drop-chance>1.0</drop-chance>
+			</drop>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>1</u>
+				<v>4</v>
+			</side>
+		</block-side-textures>
+		<transparent>false</transparent>
+		<right-click-handler>noOperationRightClickHandler</right-click-handler>
+	</block>
+	
+	<block name="Leaves">
+		<id>9</id>
+		<material>material</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>cube</model>
+		<drops>
+			<drop>
+				<drop-id>14</drop-id>
+				<drop-amount>1</drop-amount>
+				<drop-chance>0.4</drop-chance>
+			</drop>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>10</u>
+				<v>8</v>
+			</side>
+		</block-side-textures>
+		<transparent>false</transparent>
+		<right-click-handler>noOperationRightClickHandler</right-click-handler>
+	</block>
+	
+	<block name="Plank">
+		<id>10</id>
+		<material>material</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>cube</model>
+		<drops>
+			<drop>
+				<drop-id>13</drop-id>
+				<drop-amount>1</drop-amount>
+				<drop-chance>1.0</drop-chance>
+			</drop>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>0</u>
+				<v>4</v>
+			</side>
+		</block-side-textures>
+		<transparent>false</transparent>
+		<right-click-handler>noOperationRightClickHandler</right-click-handler>
+	</block>
+	
+		
+	<block name="Sapling">
+		<id>11</id>
+		<material>transparentMaterial</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>XYPlane</model>
+		<drops>
+			<drop>
+				<drop-id>13</drop-id>
+				<drop-amount>1</drop-amount>
+				<drop-chance>1.0</drop-chance>
+			</drop>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>0</u>
+				<v>15</v>
+			</side>
+		</block-side-textures>
+		<light>
+			<light-strength>10</light-strength>
+			<light-distance>6</light-distance>
+		</light>
+		<transparent>false</transparent>
+		<right-click-handler>noOperationRightClickHandler</right-click-handler>
+		<can-collide>false</can-collide>
+		<block-updaters>
+			<block-updater>treeBlockTimeUpdater</block-updater>
+		</block-updaters>
+	</block>
+	
+		
+	<block name="Tnt">
+		<id>12</id>
+		<material>material</material>
+		<shader>regularShader</shader>
+		<damage-shader>damageShader</damage-shader>
+		<model>cube</model>
+		<drops>
+			<drop>
+				<drop-id>13</drop-id>
+				<drop-amount>1</drop-amount>
+				<drop-chance>1.0</drop-chance>
+			</drop>
+		</drops>
+		<strength>10.0</strength>
+		<block-side-textures same-for-all-sides="true">
+			<side id="1" >
+				<u>0</u>
+				<v>8</v>
+			</side>
+		</block-side-textures>
+		<transparent>false</transparent>
+		<right-click-handler>tntRightClickHandler</right-click-handler>
+	</block>
+</blocks>

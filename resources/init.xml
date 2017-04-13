@@ -1,0 +1,11 @@
+<root>
+	<init-data>
+		<width>640</width>
+		<height>480</height>
+		<desired-fps>60</desired-fps>
+		<is-fullscreen>false</is-fullscreen>
+		<fog-near-distance>10.0</fog-near-distance>
+		<fog-far-distance>40.0</fog-far-distance>
+		<fog-color x="0.4" y="0.4" z="0.4" />
+	</init-data>
+</root>

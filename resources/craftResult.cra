@@ -1,0 +1,81 @@
+version 1.0
+craft-item:
+description Wooden hoe + stone -> Stone hoe
+can-translate true
+can-rotate false
+width 3
+height 3
+matrix
+x 1 x
+x 6 x
+x 1 x
+result-amount 1
+result-id 9
+craft-item:
+description stone -> dirt
+can-translate true
+can-rotate true
+width 2
+height 2
+matrix
+x 9
+x x
+result-amount 1
+result-id 0
+craft-item:
+description Wooden block to planks
+can-translate true
+can-rotate true
+width 2
+height 2
+matrix
+x 11
+x x
+result-amount 1
+result-id 13
+craft-item:
+description Planks to stick
+can-translate true
+can-rotate true
+width 2
+height 2
+matrix
+x 13
+x x
+result-amount 1
+result-id 12
+craft-item:
+description Wooden hoe
+can-translate true
+can-rotate true
+width 3
+height 3
+matrix
+13 13 x
+x 12 x
+x 12 x
+result-amount 1
+result-id 6
+craft-item:
+description Crafting table
+can-translate true
+can-rotate true
+width 2
+height 2
+matrix
+13 13
+13 13
+result-amount 1
+result-id 10
+craft-item:
+description Wooden hoe
+can-translate true
+can-rotate true
+width 3
+height 3
+matrix
+1 1 x
+x 12 x
+x 12 x
+result-amount 1
+result-id 9

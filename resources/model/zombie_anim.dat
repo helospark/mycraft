@@ -1,0 +1,3 @@
+#name startFrame endFrame
+idle 0 34
+walk 35 78

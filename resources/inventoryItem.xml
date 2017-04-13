@@ -1,0 +1,207 @@
+<inventory-items>
+	<inventory-item name="Dirt block" type="block">
+		<id>0</id>
+		<blockId>0</blockId>
+		<model>cube</model>
+		<material>regularMaterial</material>
+		<right-click-handler>regularBlockPlacementRightClickHandler</right-click-handler>
+		<spriteU>4</spriteU>
+		<spriteV>0</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+		<block-side-textures same-for-all-sides="true">
+			<side>
+				<u>0</u>
+				<v>2</v>
+			</side>
+		</block-side-textures>
+	</inventory-item>
+	
+	<inventory-item name="Stone block" type="block">
+		<id>1</id>
+		<blockId>1</blockId>
+		<model>cube</model>
+		<material>regularMaterial</material>
+		<right-click-handler>regularBlockPlacementRightClickHandler</right-click-handler>
+		<spriteU>0</spriteU>
+		<spriteV>0</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+		<block-side-textures same-for-all-sides="true">
+			<side>
+				<u>0</u>
+				<v>1</v>
+			</side>
+		</block-side-textures>
+	</inventory-item>
+	
+	<inventory-item name="Gold block" type="block">
+		<id>5</id>
+		<blockId>4</blockId>
+		<model>cube</model>
+		<material>regularMaterial</material>
+		<right-click-handler>regularBlockPlacementRightClickHandler</right-click-handler>
+		<spriteU>7</spriteU>
+		<spriteV>0</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+		<block-side-textures same-for-all-sides="true">
+			<side>
+				<u>1</u>
+				<v>7</v>
+			</side>
+		</block-side-textures>
+	</inventory-item>
+	
+	<inventory-item name="Wooden hoe" type="tool">
+		<id>6</id>
+		<model>Wooden hoe</model>
+		<material>colorMaterial</material>
+		<right-click-handler>hoeRightClickHandler</right-click-handler>
+		<spriteU>3</spriteU>
+		<spriteV>0</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+		<block-destroy-speed>
+			<block id="0" multiplier="2" />
+		</block-destroy-speed>
+	</inventory-item>
+	
+	<inventory-item name="Glowstone shard" type="block">
+		<id>7</id>
+		<blockId>6</blockId>
+		<model>cube</model>
+		<material>regularMaterial</material>
+		<right-click-handler>regularBlockPlacementRightClickHandler</right-click-handler>
+		<spriteU>8</spriteU>
+		<spriteV>0</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+		<block-side-textures same-for-all-sides="true">
+			<side>
+				<u>6</u>
+				<v>9</v>
+			</side>
+		</block-side-textures>
+	</inventory-item>
+	
+	<inventory-item name="PlayerHand" type="tool">
+		<id>8</id>
+		<model>Player hand</model>
+		<material>colorMaterial</material>
+		<right-click-handler>noEffectRightClickHandler</right-click-handler>
+		<spriteU>0</spriteU>
+		<spriteV>0</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+	</inventory-item>
+	
+	<inventory-item name="Stone hoe" type="tool">
+		<id>9</id>
+		<model>Stone hoe</model>
+		<material>colorMaterial</material>
+		<right-click-handler>hoeRightClickHandler</right-click-handler>
+		<spriteU>9</spriteU>
+		<spriteV>0</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+		<block-destroy-speed>
+			<block id="0" multiplier="4" />
+			<block id="1" multiplier="2" />
+		</block-destroy-speed>
+	</inventory-item>
+	
+	<inventory-item name="Crafting table" type="block">
+		<id>10</id>
+		<blockId>7</blockId>
+		<model>cube</model>
+		<material>regularMaterial</material>
+		<right-click-handler>regularBlockPlacementRightClickHandler</right-click-handler>
+		<spriteU>13</spriteU>
+		<spriteV>0</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+		<block-side-textures same-for-all-sides="true">
+			<side>
+				<u>3</u>
+				<v>11</v>
+			</side>
+		</block-side-textures>
+	</inventory-item>
+	
+	<inventory-item name="RegularWood" type="block">
+		<id>11</id>
+		<blockId>8</blockId>
+		<model>cube</model>
+		<material>regularMaterial</material>
+		<right-click-handler>regularBlockPlacementRightClickHandler</right-click-handler>
+		<spriteU>14</spriteU>
+		<spriteV>0</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+		<block-side-textures same-for-all-sides="true">
+			<side>
+				<u>1</u>
+				<v>5</v>
+			</side>
+		</block-side-textures>
+	</inventory-item>
+	
+	<inventory-item name="Wooden stick" type="tool">
+		<id>12</id>
+		<model>Wooden stick</model>
+		<material>colorMaterial</material>
+		<right-click-handler>noEffectRightClickHandler</right-click-handler>
+		<spriteU>15</spriteU>
+		<spriteV>0</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+	</inventory-item>
+	
+	<inventory-item name="Plank" type="block">
+		<id>13</id>
+		<blockId>10</blockId>
+		<model>cube</model>
+		<material>regularMaterial</material>
+		<right-click-handler>regularBlockPlacementRightClickHandler</right-click-handler>
+		<spriteU>1</spriteU>
+		<spriteV>0</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+		<block-side-textures same-for-all-sides="true">
+			<side>
+				<u>0</u>
+				<v>4</v>
+			</side>
+		</block-side-textures>
+	</inventory-item>
+	
+	<inventory-item name="Sapling" type="block">
+		<id>14</id>
+		<blockId>11</blockId>
+		<model>XYPlane</model>
+		<material>regularMaterial</material>
+		<right-click-handler>regularBlockPlacementRightClickHandler</right-click-handler>
+		<spriteU>0</spriteU>
+		<spriteV>1</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+		<block-side-textures same-for-all-sides="true">
+			<side>
+				<u>0</u>
+				<v>15</v>
+			</side>
+		</block-side-textures>
+	</inventory-item>
+	
+	<inventory-item name="Tnt" type="block">
+		<id>15</id>
+		<blockId>12</blockId>
+		<model>cube</model>
+		<material>regularMaterial</material>
+		<right-click-handler>regularBlockPlacementRightClickHandler</right-click-handler>
+		<spriteU>1</spriteU>
+		<spriteV>1</spriteV>
+		<sprite-material>spriteMaterial</sprite-material>
+		<block-side-textures same-for-all-sides="true">
+			<side>
+				<u>0</u>
+				<v>8</v>
+			</side>
+		</block-side-textures>
+	</inventory-item>
+	
+	
+	<item-better-list>
+		<item>6</item>
+		<item>9</item>
+	</item-better-list>
+</inventory-items>

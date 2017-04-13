@@ -1,0 +1,8 @@
+<textures>
+	<texture name="block">
+		<source>resources/blocks.png</source>
+	</texture>
+	<texture name="sprite">
+		<source>resources/sprite.png</source>
+	</texture>
+</textures>

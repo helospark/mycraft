@@ -1,0 +1,9 @@
+target/
+chunks.chu
+pointer.poi
+.settings
+.project
+*.jpg
+.springBeans
+font.png
+.classpath

@@ -1,0 +1,28 @@
+<xmlList>
+	<tool-files>
+		<file>resources/hoe.bcs</file>
+		<file>resources/playerHand.bcs</file>
+		<file>resources/stick.bcs</file>
+	</tool-files>
+	<craft-files>
+		<file>resources/craftResult.cra</file>
+	</craft-files>
+	<texture-files>
+		<file>resources/textures.xml</file>
+	</texture-files>
+	<shader-files>
+		<file>resources/shaders.xml</file>
+	</shader-files>
+	<material-files>
+		<file>resources/materials.xml</file>
+	</material-files>
+	<model-files>
+		<file>resources/models.xml</file>
+	</model-files>
+	<inventory-item-files>
+		<file>resources/inventoryItem.xml</file>
+	</inventory-item-files>
+	<block-files>
+		<file>resources/blocks.xml</file>
+	</block-files>
+</xmlList>

@@ -1,0 +1,25 @@
+<shaders>
+	<shader name="shader">
+		<vertex-shader>src/main/resources/shaders/vertex.vs</vertex-shader>
+		<fragment-shader>src/main/resources/shaders/fragment.fs</fragment-shader>
+	</shader>
+	<shader name="regularShader">
+		<vertex-shader>src/main/resources/shaders/vertex.vs</vertex-shader>
+		<fragment-shader>src/main/resources/shaders/cubeFragment.fs</fragment-shader>
+	</shader>
+	
+	<shader name="damageShader">
+		<vertex-shader>src/main/resources/shaders/vertex.vs</vertex-shader>
+		<fragment-shader>src/main/resources/shaders/damageCubeFragment.fs</fragment-shader>
+	</shader>
+	
+	<shader name="colorShader">
+		<vertex-shader>src/main/resources/shaders/colorVertex.vs</vertex-shader>
+		<fragment-shader>src/main/resources/shaders/colorFragment.fs</fragment-shader>
+	</shader>
+	
+	<shader name="redShader">
+		<vertex-shader>src/main/resources/shaders/redShader.vs</vertex-shader>
+		<fragment-shader>src/main/resources/shaders/redShader.fs</fragment-shader>
+	</shader>
+</shaders>

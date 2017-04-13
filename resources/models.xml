@@ -1,0 +1,13 @@
+<models>
+	<model name="cube">
+		<model-element>SimpleModelCreator.left</model-element>
+		<model-element>SimpleModelCreator.right</model-element>
+		<model-element>SimpleModelCreator.top</model-element>
+		<model-element>SimpleModelCreator.bottom</model-element>
+		<model-element>SimpleModelCreator.near</model-element>
+		<model-element>SimpleModelCreator.far</model-element>
+	</model>
+	<model name ="XYPlane">
+		<model-element>SimpleModelCreator.near</model-element>
+	</model>
+</models>

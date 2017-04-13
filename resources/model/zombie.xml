@@ -1,0 +1,12 @@
+<materials>
+	<material name="zombie">
+		<shader>redShader</shader>
+		<textures>
+			<texture name="zombie">
+				<source>resources/model/zombie.png</source>
+			</texture>
+		</textures>
+		<texture name="sampler">zombie</texture>
+		<is-transparent>false</is-transparent>
+	</material>
+</materials>
